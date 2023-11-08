@@ -1,0 +1,19 @@
+<Project Sdk="Godot.NET.Sdk/4.1.2">
+
+  <!-- Use for debug
+    <ItemGroup>
+    <ProjectReference Include="/Users/erick/dev/markov-dll/Markov-Junior/Markov-Junior.csproj" />
+  </ItemGroup> -->
+
+  <ItemGroup>
+    <Reference Include="markov">
+      <HintPath>addons/markovgodot/lib/Markov-Junior.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>MarkovPlugin</RootNamespace>
+  </PropertyGroup>
+</Project>
